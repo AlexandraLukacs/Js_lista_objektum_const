@@ -119,3 +119,36 @@ console.log(kutyalista[0].szin)
 
 /* HF: tetszőleges lista tetszőleges objektummal legalább 2 adattal
 kiiratni a consolra az első kulcshoz tartozó dolgokat vagy vmit */
+
+/* HF */
+const f1lista=[
+    {
+        nev: "Mercedes AMG Petornas F1 Team",
+        fonok:"Toto Wolf",
+        vezeto1:"Lewis Hamilton",
+        vezeto2: "George Russel",
+        autoszam1: 44,
+        autoszam2: 63
+    },
+    {
+        nev:"Scuderia Ferrari F1 Team",
+        fonok:"Frédéric Vasseur",
+        vezeto1:"Charles Leclerc",
+        vezeto2: "Carlos Sainz",
+        autoszam1: 16,
+        autoszam2: 55
+    },
+    {
+        nev:"Mclaren F1 Team",
+        fonok:"Zak Brown",
+        vezeto1:"Lando Norris",
+        vezeto2: "Oscar Piastri",
+        autoszam1: 4,
+        autoszam2: 81
+    }
+]
+
+console.log("HF:")
+console.log(f1lista[0].vezeto1)
+console.log(f1lista[1].nev)
+console.log(f1lista[2].autoszam2)
